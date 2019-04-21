@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load staticfiles %} 
+<html>
+<head>
+	<title>First Template Page</title>
+	<link rel="stylesheet" href="{% static "css/demo.css"%}">   
+	<style type="text/css">
+		
+		h1{
+			color: white;
+			background: red;
+		}
+	</style>
+</head>
+<body>
+   <h1> Hello welcome to Second Hero of MVT: Templates </h1>
+    <h1>Hello Server Current Date and Time : <br> 
+     {{insert_date}}   
+    </h1>
+    <img src="{% static "images/M.jpg" %}" height="400" width="400" alt=""> 
+
+</body>
+</html>
